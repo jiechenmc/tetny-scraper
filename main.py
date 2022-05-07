@@ -57,7 +57,7 @@ async def main():
         await page.goto(source_url)
 
         # To avoid interruptions set timeout to 30000
-        # However this will drastically increase run time
+        # However by doing that will drastically increase run time
         page.set_default_timeout(10000)
 
         # Page loads
