@@ -33,7 +33,7 @@ async def write_to_file(school_name, grads, chart_data):
     out_dir = "./out"
 
     #final_file = Path(out_dir) / school_name.replace("/", "_")
-    final_file = Path(out_dir) / "master.csv"
+    final_file = Path(out_dir) / "2014_master.csv"
     with open(final_file, "a") as f:
         f.write(out)
 
